@@ -1106,14 +1106,14 @@ rm /userdata/roms/ports/updateryujinx.sh 2>/dev/null
 rm /userdata/roms/ports/updateryujinxavalonia.sh 2>/dev/null
 # --------------------------------------------------------------------
 # AUTOMATICALLY PULL THE LATEST EMULATORS FEATURES UPDATES / ALSO UPDATE THESE FILES: 
-url_switchkeys=https://raw.githubusercontent.com/ordovice/batocera-switch/main/system/configs/evmapy/switch.keys
-url_es_features_switch=https://raw.githubusercontent.com/ordovice/batocera-switch/main/system/configs/emulationstation/es_features_switch.cfg
-url_es_systems_switch=https://raw.githubusercontent.com/ordovice/batocera-switch/main/system/configs/emulationstation/es_systems_switch.cfg
-url_switchlauncher=https://raw.githubusercontent.com/ordovice/batocera-switch/main/system/switch/configgen/switchlauncher.py
-url_GeneratorImporter=https://raw.githubusercontent.com/ordovice/batocera-switch/main/system/switch/configgen/GeneratorImporter.py
-url_ryujinxMainlineGenerator=https://raw.githubusercontent.com/ordovice/batocera-switch/main/system/switch/configgen/generators/ryujinx/ryujinxMainlineGenerator.py
-url_yuzuMainlineGenerator=https://raw.githubusercontent.com/ordovice/batocera-switch/main/system/switch/configgen/generators/yuzu/yuzuMainlineGenerator.py
-url_sshupdater=https://raw.githubusercontent.com/ordovice/batocera-switch/main/system/switch/extra/batocera-switch-sshupdater.sh
+url_switchkeys=https://raw.githubusercontent.com/geekreative/batocera-switch/project/system/configs/evmapy/switch.keys
+url_es_features_switch=https://raw.githubusercontent.com/geekreative/batocera-switch/project/system/configs/emulationstation/es_features_switch.cfg
+url_es_systems_switch=https://raw.githubusercontent.com/geekreative/batocera-switch/project/system/configs/emulationstation/es_systems_switch.cfg
+url_switchlauncher=https://raw.githubusercontent.com/geekreative/batocera-switch/project/system/switch/configgen/switchlauncher.py
+url_GeneratorImporter=https://raw.githubusercontent.com/geekreative/batocera-switch/project/system/switch/configgen/GeneratorImporter.py
+url_ryujinxMainlineGenerator=https://raw.githubusercontent.com/geekreative/batocera-switch/project/system/switch/configgen/generators/ryujinx/ryujinxMainlineGenerator.py
+url_yuzuMainlineGenerator=https://raw.githubusercontent.com/geekreative/batocera-switch/project/system/switch/configgen/generators/yuzu/yuzuMainlineGenerator.py
+url_sshupdater=https://raw.githubusercontent.com/geekreative/batocera-switch/project/system/switch/extra/batocera-switch-sshupdater.sh
 wget -q -O "/userdata/system/configs/evmapy/switch.keys" "$url_switchkeys"
 wget -q -O "/userdata/system/configs/emulationstation/es_features_switch.cfg" "$url_es_features_switch"
 wget -q -O "/userdata/system/configs/emulationstation/es_systems_switch.cfg" "$url_es_systems_switch"
