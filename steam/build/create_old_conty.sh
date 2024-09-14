@@ -96,10 +96,10 @@ script_dir="$(dirname "$(readlink -f "${BASH_SOURCE[0]}")")"
 
 # unionfs / nvidia patcher -- root patch
 mkdir -p "$script_dir/utils" 2>/dev/null
-wget -q --tries=10 --no-check-certificate --no-cache --no-cookies -O "$script_dir/utils/libunionfs.so" "https://github.com/uureel/batocera.pro/blob/main/steam/build/unionfs/libunionfs.so"
-wget -q --tries=10 --no-check-certificate --no-cache --no-cookies -O "$script_dir/utils/unionfsctl" "https://github.com/uureel/batocera.pro/blob/main/steam/build/unionfs/unionfsctl"
-wget -q --tries=10 --no-check-certificate --no-cache --no-cookies -O "$script_dir/utils/unionfs3" "https://github.com/uureel/batocera.pro/blob/main/steam/build/unionfs/unionfs3"
-wget -q --tries=10 --no-check-certificate --no-cache --no-cookies -O "$script_dir/utils/unionfs" "https://github.com/uureel/batocera.pro/blob/main/steam/build/unionfs/unionfs"
+wget -q --tries=10 --no-check-certificate --no-cache --no-cookies -O "$script_dir/utils/libunionfs.so" "https://github.com/uureel/batocera.pro/raw/main/steam/build/unionfs/libunionfs.so"
+wget -q --tries=10 --no-check-certificate --no-cache --no-cookies -O "$script_dir/utils/unionfsctl" "https://github.com/uureel/batocera.pro/raw/main/steam/build/unionfs/unionfsctl"
+wget -q --tries=10 --no-check-certificate --no-cache --no-cookies -O "$script_dir/utils/unionfs3" "https://github.com/uureel/batocera.pro/raw/main/steam/build/unionfs/unionfs3"
+wget -q --tries=10 --no-check-certificate --no-cache --no-cookies -O "$script_dir/utils/unionfs" "https://github.com/uureel/batocera.pro/raw/main/steam/build/unionfs/unionfs"
 chmod 777 "$script_dir/utils/libunionfs.so" 2>/dev/null
 chmod 777 "$script_dir/utils/unionfsctl" 2>/dev/null
 chmod 777 "$script_dir/utils/unionfs3" 2>/dev/null

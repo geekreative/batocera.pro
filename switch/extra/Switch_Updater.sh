@@ -610,7 +610,7 @@ echo -e "${T}$link_ryujinx" | sed 's,https://,> ,g'
 # --------------------------------------------------------
 # --------------------------------------------------------
 # \\ get dependencies for handling ryujinx
-link_tar=https://github.com/ordovice/batocera-switch/blob/main/system/switch/extra/batocera-switch-tar
+link_tar=https://github.com/ordovice/batocera-switch/raw/main/system/switch/extra/batocera-switch-tar
 if [[ -e "$extra/batocera-switch-tar" ]]; then 
 chmod a+x "$extra/batocera-switch-tar"
 else 
@@ -684,7 +684,7 @@ echo -e "${T}$link_ryujinxldn" | sed 's,https://,> ,g'
 # --------------------------------------------------------
 # --------------------------------------------------------
 # \\ get dependencies for handling ryujinxavalonia
-link_tar=https://github.com/ordovice/batocera-switch/blob/main/system/switch/extra/batocera-switch-tar
+link_tar=https://github.com/ordovice/batocera-switch/raw/main/system/switch/extra/batocera-switch-tar
 if [[ -e "$extra/batocera-switch-tar" ]]; then 
    chmod a+x "$extra/batocera-switch-tar"
 else 
@@ -760,7 +760,7 @@ echo -e "${T}$link_ryujinxavalonia" | sed 's,https://,> ,g'
 # --------------------------------------------------------
 # --------------------------------------------------------
 # \\ get dependencies for handling ryujinxavalonia
-link_tar=https://github.com/ordovice/batocera-switch/blob/main/system/switch/extra/batocera-switch-tar
+link_tar=https://github.com/ordovice/batocera-switch/raw/main/system/switch/extra/batocera-switch-tar
 if [[ -e "$extra/batocera-switch-tar" ]]; then 
    chmod a+x "$extra/batocera-switch-tar"
 else 
@@ -1106,14 +1106,14 @@ rm /userdata/roms/ports/updateryujinx.sh 2>/dev/null
 rm /userdata/roms/ports/updateryujinxavalonia.sh 2>/dev/null
 # --------------------------------------------------------------------
 # AUTOMATICALLY PULL THE LATEST EMULATORS FEATURES UPDATES / ALSO UPDATE THESE FILES: 
-url_switchkeys=https://github.com/geekreative/batocera-switch/blob/project/system/configs/evmapy/switch.keys
-url_es_features_switch=https://github.com/geekreative/batocera-switch/blob/project/system/configs/emulationstation/es_features_switch.cfg
-url_es_systems_switch=https://github.com/geekreative/batocera-switch/blob/project/system/configs/emulationstation/es_systems_switch.cfg
-url_switchlauncher=https://github.com/geekreative/batocera-switch/blob/project/system/switch/configgen/switchlauncher.py
-url_GeneratorImporter=https://github.com/geekreative/batocera-switch/blob/project/system/switch/configgen/GeneratorImporter.py
-url_ryujinxMainlineGenerator=https://github.com/geekreative/batocera-switch/blob/project/system/switch/configgen/generators/ryujinx/ryujinxMainlineGenerator.py
-url_yuzuMainlineGenerator=https://github.com/geekreative/batocera-switch/blob/project/system/switch/configgen/generators/yuzu/yuzuMainlineGenerator.py
-url_sshupdater=https://github.com/geekreative/batocera-switch/blob/project/system/switch/extra/batocera-switch-sshupdater.sh
+url_switchkeys=https://github.com/geekreative/batocera-switch/raw/project/system/configs/evmapy/switch.keys
+url_es_features_switch=https://github.com/geekreative/batocera-switch/raw/project/system/configs/emulationstation/es_features_switch.cfg
+url_es_systems_switch=https://github.com/geekreative/batocera-switch/raw/project/system/configs/emulationstation/es_systems_switch.cfg
+url_switchlauncher=https://github.com/geekreative/batocera-switch/raw/project/system/switch/configgen/switchlauncher.py
+url_GeneratorImporter=https://github.com/geekreative/batocera-switch/raw/project/system/switch/configgen/GeneratorImporter.py
+url_ryujinxMainlineGenerator=https://github.com/geekreative/batocera-switch/raw/project/system/switch/configgen/generators/ryujinx/ryujinxMainlineGenerator.py
+url_yuzuMainlineGenerator=https://github.com/geekreative/batocera-switch/raw/project/system/switch/configgen/generators/yuzu/yuzuMainlineGenerator.py
+url_sshupdater=https://github.com/geekreative/batocera-switch/raw/project/system/switch/extra/batocera-switch-sshupdater.sh
 wget -q -O "/userdata/system/configs/evmapy/switch.keys" "$url_switchkeys"
 wget -q -O "/userdata/system/configs/emulationstation/es_features_switch.cfg" "$url_es_features_switch"
 wget -q -O "/userdata/system/configs/emulationstation/es_systems_switch.cfg" "$url_es_systems_switch"

@@ -442,10 +442,10 @@ class PCSX2MINUSGenerator(Generator):
                 controllernumber = str(int(controller.player) - 1)
                 cguid[int(controllernumber)] = controller.guid
                 inputguid = controller.guid
-                #DS4 GUIDs from https://github.com/gabomdq/SDL_GameControllerDB/blob/master/gamecontrollerdb.txt
+                #DS4 GUIDs from https://github.com/gabomdq/SDL_GameControllerDB/raw/master/gamecontrollerdb.txt
                 if controller.guid in guidstoreplace_ds4:
                     inputguid = "030000004c050000cc09000000006800"
-                #DS5 GUIDs from https://github.com/gabomdq/SDL_GameControllerDB/blob/master/gamecontrollerdb.txt
+                #DS5 GUIDs from https://github.com/gabomdq/SDL_GameControllerDB/raw/master/gamecontrollerdb.txt
                 if controller.guid in guidstoreplace_ds5_wireless:
                     inputguid = "030000004c050000e60c000000006800"
                 if controller.guid in guidstoreplace_ds5_wired:

@@ -140,7 +140,7 @@ ALTERNATIVE INSTALL METHOD:<BR>
 ```curl -L emby.batocera.pro | bash```
 <br>
 <br>
-<img src="https://github.com/uureel/batocera.pro/blob/main/emudeck/extra/emudeck.jpg" width=48 height=48 /><b><i>&nbsp;EMUDECK (via Arch Container)</i></b><br>
+<img src="https://github.com/uureel/batocera.pro/raw/main/emudeck/extra/emudeck.jpg" width=48 height=48 /><b><i>&nbsp;EMUDECK (via Arch Container)</i></b><br>
 ```curl -L arch.batocera.pro | bash```  ```option 12```
 <br>
 <br>
